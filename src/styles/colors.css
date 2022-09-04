@@ -1,0 +1,12 @@
+:root
+{
+    --font-white: rgb(255,255,255,0.8);
+    --bg-base-color: #1F2023;
+    --bg-overlay-light: #383B40;
+    --bg-disabled-input:rgb(41, 41, 44);
+    --nav-bg: #010101;
+    --btn-bg-active: #5e6062;
+    --btn-border: rgb(255,255,255,0.3);
+    --error-font-color: rgba(150, 30, 30, 0.75);
+    --disabled-btn-border: rgb(40, 40, 40);
+}

@@ -1,0 +1,52 @@
+:root
+{
+    --border-bottom: rgb(200,200,200,0.5);
+}
+
+.movie
+{
+    width: 60%;
+}
+
+.release-info
+{
+    padding: 0px;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    list-style: circle;
+}
+
+.release-info-item
+{
+    margin-left: 15px;
+    font-size: small;
+    flex: 2 0 30%;
+}
+
+.movie-poster
+{
+    width: 33%;
+    border-radius: 0.25rem;
+}
+
+.movie-info
+{
+    padding: 0px;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.movie-info-element
+{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+.rating-value
+{
+    font-size: large;
+    padding: 5px;
+    color: rgb(240, 150, 60,0.75);
+}

@@ -1,0 +1,43 @@
+
+.total-results
+{
+    color: var(--font-white);
+}
+
+.movies-list
+{
+    padding: 0px;
+}
+
+.movies-list-item
+{
+    background-color: var(--bg-overlay-light);
+    width: 60%;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-poster
+{
+    width: 10%;
+}
+
+.link-to-movie
+{
+    color: var(--font-white);
+    text-decoration: none;
+    flex: 0 0 65%;
+    padding: 20px;
+}
+
+.link-to-movie:hover
+{
+    color: var(--font-white);
+    text-decoration: underline;
+}
+
+.movie-year
+{
+    flex: 0 0 25%;
+}

@@ -1,0 +1,68 @@
+.id-form
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.id-label
+{
+    margin-top: 20px;
+    width: 30%;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.id-input
+{
+    width: 50%;
+    margin-top: 5px;
+    padding: 3px;
+    background-color: var(--bg-overlay-light);
+    color: var(--font-white);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border-width: 0px;
+    border-radius: 0.25rem;
+    
+}
+
+.search-btn
+{
+    margin-top: 20px;
+    width: 10%;
+    padding: 5px;
+    background-color: var(--bg-base-color);
+    font-size: medium;
+    color: var(--font-white);
+    border: 2px solid var(--btn-border);
+    border-radius: 0.5rem;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.search-btn:hover
+{
+    background-color: var(--bg-overlay-light);
+    cursor: pointer;
+}
+
+.search-btn:active
+{
+    background-color: var(--btn-bg-active);
+}
+
+.error-message
+{
+    color: var(--error-font-color);
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.movie-info
+{
+    background-color: var(--bg-overlay-light);
+}

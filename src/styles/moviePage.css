@@ -1,0 +1,14 @@
+
+.back
+{
+    margin-top: 20px;
+    width: fit-content;
+    font-size: large;
+    text-decoration: none; 
+    color: var(--font-white);
+}
+
+.back:hover
+{
+    text-decoration: underline;
+}
